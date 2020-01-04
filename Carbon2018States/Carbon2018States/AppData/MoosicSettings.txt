@@ -1,0 +1,4 @@
+﻿true
+true
+1: say welcome and bye to users when they open and quit
+2: play a nice beautiful background music to users

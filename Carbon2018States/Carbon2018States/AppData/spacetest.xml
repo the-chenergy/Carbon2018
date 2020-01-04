@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<group name="NoSpacesInName">
+		S p a c e b e t w e e n t h i s !
+		<meeting name="2  Space  Between  Each">
+			The next line are just 4 spaces.
+			    
+			<post name="4SpaceAfterName    " date="2018-3-13">
+				No spaces before this line.
+				 One space before this line.
+				    4 spaces before and after this line.    
+				Below should be 2 new lines, and 4 spaces after the new lines.
+				
+				    
+			</post>
+		</meeting>
+	</group>
+</data>

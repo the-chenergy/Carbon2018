@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<group name="Carbon">
+		Hello everybody! Welcome to the Carbon team!
+		Carbon team delevlops funny cool games and softwares. And bluh bluh bluh..
+		<user name="Form1" origin="Coleman"/>
+		<user name="TrashStudio" origin="Stefan"/>
+		<user name="Circle1" origin="Marlon"/>
+		<user name="Asianboii" origin="Qianlang"/>
+		<meeting name="News">
+			The blogs published by the world's best programming group Carbon.
+			<post name="New Carbon Client UI" date="17-12-20">
+				    The professional programming team Carbon(tm) is now programming their new client UI! They will be ready for the TSA coming on January 25th!
+			</post>
+			<post name="Carbon Logo by Form1" date="18-1-4">
+				    Form1 is making a pretty Carbon Logo! Let's hope we can see it soon!
+			</post>
+			<post name="TS and Circle1 plays diep in class!!!" date="18-1-6">
+				    At the end of the term, TrashStudio and Circle1 played diep.io on most of the time in class! They almost never paid attention to class!
+			</post>
+			<post name="We've all gotta 45 in Diepio!" date="18-1-10">
+				    Every Carbon team member has got to 45th level in diep.io! Go Carbon!
+			</post>
+		</meeting>
+		<meeting name="Projects">
+			The projects the Carbon team published or currently work on.
+			<post name="MoosicPlayer" date="17-9-28">
+				    This project was started with a joke by Peter. But anyway, beeping music is always the best in our world.
+			</post>
+			<post name="Food!" date="17-10-5">
+				    I'm hungry! I need someone to deliver me some food! (Hey I love the background music. It should be the theme of Carbon and pgm1 of the year.)
+			</post>
+			<post name="Tictac Max" date="17-10-14">
+				    The first AI in Carbon team! Everybody should have played with this in his/her life! This is how awesome this program is.
+			</post>
+			<post name="UntitledMazeGame1" date="17-11-3">
+				    A maze game? That's right but with a lot of bugs! Have fun playing with it, and its BGM.
+				
+				    The idea of this project was given by Form1.
+			</post>
+			<post name="Qwakulatr" date="17-11-20">
+				    The name isn't a typo. This is a calculator that would quack everytime you pressed a button of it. It would also bark or merr sometimes.
+				    
+				    But it's just useless. It's not useless and a little bit cool. It's 100.0% useless.
+			</post>
+			<post name="Carbon Client! Yay!" date="38-1-1">
+				(Content incomplet
+			</post>
+		</meeting>
+		<meeting name="Others">
+			Oh wow.
+			<post name="Are you kidding me??">
+				    This is a post. That's all.
+			</post>
+		</meeting>
+	</group>
+	<group name="PGM1">
+		The worst programming class you can ever take in the solar system.
+		<user name="Unknown0" origin="Unknown"/>
+		<user name="Unknown1" origin="Unknown"/>
+		<meeting name="asonetuh">
+			AOEUAOEUAOEU
+			<post name="Sample1">
+				111111111111111111111111111111111111111111111111111111111111111111111111111111111
+			</post>
+			<post name="Sample2">
+				222222222222222222222222222222222222222222222222222222222222222222222222222222222
+			</post>
+			<post name="Sample3">
+				333333333333333333333333333333333333333333333333333333333333333333333333333333333
+			</post>
+		</meeting>
+		<meeting name="sanotehu">
+			AOEUAOEUAOEUAOEUOAEUAOEUAOEUAOEUAOEUAOEUUUUUUUUUUUUUUUUUUUUUUUUU
+			<post name="Sample4">
+				444444444444444444444444444444444444444444444444444444444444444444444444444444444
+			</post>
+			<post name="Sample5">
+				555555555555555555555555555555555555555555555555555555555555555555555555555555555
+			</post>
+			<post name="Sample6">
+				666666666666666666666666666666666666666666666666666666666666666666666666666666666
+			</post>
+		</meeting>
+	</group>
+	<group name="GTI Teachers">
+		Carbon is a useful program.
+		<user name="Students" origin=""/>
+		<meeting name="Subject">
+			Science class is a systematic enterprise class that builds and organizes knowledge in the form of testable explanations and predictions about the universe.
+			<post name="Key Idea #1">
+				   What to focus on
+			</post>
+			<post name="Key Idea #2">
+				    Make sure to say ""
+			</post>
+		</meeting>
+		<meeting name="Math Courses">
+			An undergraduate degree in mathematics provides an excellent basis for graduate work in mathematics or computer science, or for employment in such mathematics-related fields as systems analysis, operations research, or actuarial science.
+			<post name="Week 2 Details">
+				    This week we should try to teach the sin cos and tan of trigonometry to the kids.
+			</post>
+			<post name="Key Area of Trigs">
+				Trigonometry is the branch of mathematics that studies triangles and cycles. Trigonometric functions are used to describe properties of any angle, relationships in any triangle, and the graphs of any recurring cycle. Learning trigonometry will help you understand visualize and graph these relationships and cycles. If you combine studying on your own with staying focused in class, you’ll grasp the basic trigonometric concepts and likely start noticing cycles in the world around you.
+				
+				    1. Define the parts of a triangle.
+				    2. Learn to make unit circle.
+				    3. Know the trigonometric functions.
+				    4. Conceptualize relationships.
+			</post>
+			<post name="Applications of Trigonometry">
+				    Aside from studying trigonometry just for the love of trigonometry, mathematicians and scientists do apply these concepts.
+				
+				    Trigonometry can be used to find the values for angles or line segments. You can also describe the any cyclical behaviors by graphing them as trigonometric functions.
+			</post>
+		</meeting>
+		<meeting name="Science Courses">
+			Science class is a systematic enterprise class that builds and organizes knowledge in the form of testable explanations and predictions about the universe.
+			<post name="Newton's Laws">
+				    Newton's laws of motion are three physical laws that, together, laid the foundation for classical mechanics.
+				
+				    They describe the relationship between a body and the forces acting upon it, and its motion in response to those forces.
+			</post>
+			<post name="General Theory of Relativity">
+				    General relativity is the geometric theory of gravitation published by Albert Einstein in 1915 and the current description of gravitation in modern physics.
+				
+				    General relativity has been described as the most beautiful of all existing physical theories.
+			</post>
+			<post name="Thermodynamics">
+				    Thermodynamics is a branch of physics concerned with heat and temperature and their relation to other forms of energy and work. The behavior of these quantities is governed by the four laws of thermodynamics, irrespective of the composition or specific properties of the material or system in question.
+			</post>
+		</meeting>
+	</group>
+</data>

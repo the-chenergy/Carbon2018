@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<group name="TEST GROUP1">
+		aaa
+		<meeting name="Test meeting1">
+			111
+			<post name="Test post1" date="2018-3-12">
+				bluhbluh
+			</post>
+			<post name="Test post2" date="2018-3-12">
+				bluhbluhbluhbluh
+			</post>
+		</meeting>
+		<meeting name="Test meeting2">
+			222
+			<post name="Test post3" date="2018-3-12">
+				bluhbluhbluh
+			</post>
+			<post name="Test post4" date="2018-3-12">
+				bluhbluhbluhbluh
+			</post>
+		</meeting>
+	</group>
+	<group name="TEST GROUP2">
+		bbb
+		<meeting name="Test meeting3">
+			333
+			<post name="Test post5" date="2018-3-12">
+				bluhbluhbluhbluhbluhbluhbluhbluhbluhbluh
+			</post>
+			<post name="Test post6" date="2018-3-12">
+				bluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluh
+			</post>
+		</meeting>
+		<meeting name="Test meeting4">
+			444
+			<post name="Test post7" date="2018-3-12">
+				bluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluh
+			</post>
+			<post name="Test post8" date="2018-3-12">
+				bluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluhbluh
+			</post>
+		</meeting>
+	</group>
+</data>

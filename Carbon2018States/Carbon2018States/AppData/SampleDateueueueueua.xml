@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<group name="Carbon">
+Hello everybody! Welcome to the Carbon team!
+Carbon team delevlops funny cool games and softwares. And bluh bluh bluh..
+	<user name="Form1" origin="Coleman"/>
+	<user name="TrashStudio" origin="Stefan"/>
+	<user name="Circle1" origin="Marlon"/>
+	<user name="Asianboii" origin="Qianlang"/>
+		<meeting name="News">
+The blogs published by the world's best programming group Carbon.
+			<post name="New Carbon Client UI" date="2/21/2018">
+    The professional programming team Carbon(tm) is now programming their new client UI! They will be ready for the TSA coming on January 25th!
+			</post>
+			<post name="Carbon Logo by Form1" date="2/21/2018">
+    Form1 is making a pretty Carbon Logo! Let's hope we can see it soon!
+			</post>
+			<post name="TS and Circle1 plays diep in class!!!" date="2/21/2018">
+    At the end of the term, TrashStudio and Circle1 played diep.io on most of the time in class! They almost never paid attention to class!
+			</post>
+			<post name="We've all gotta 45 in Diepio!" date="2/21/2018">
+    Every Carbon team member has got to 45th level in diep.io! Go Carbon!
+			</post>
+		</meeting>
+		<meeting name="Projects">
+The projects the Carbon team published or currently work on.
+			<post name="MoosicPlayer" date="2/21/2018">
+    This project was started with a joke by Peter. But anyway, beeping music is always the best in our world.
+			</post>
+			<post name="Food!" date="2/21/2018">
+    I'm hungry! I need someone to deliver me some food! (Hey I love the background music. It should be the theme of Carbon and pgm1 of the year.)
+			</post>
+			<post name="Tictac Max" date="2/21/2018">
+    The first AI in Carbon team! Everybody should have played with this in his/her life! This is how awesome this program is.
+			</post>
+			<post name="UntitledMazeGame1" date="2/21/2018">
+    A maze game? That's right but with a lot of bugs! Have fun playing with it, and its BGM.
+
+    The idea of this project was given by Form1.
+			</post>
+			<post name="Qwakulatr" date="2/21/2018">
+    The name isn't a typo. This is a calculator that would quack everytime you pressed a button of it. It would also bark or merr sometimes.
+    
+    But it's just useless. It's not useless and a little bit cool. It's 100.0% useless.
+			</post>
+			<post name="Carbon Client! Yay!" date="2/21/2018">
+(Content incomplet
+			</post>
+		</meeting>
+		<meeting name="Others">
+Oh wow.
+			<post name="Are you kidding me??" date="2/21/2018">
+    This is a post. That's all.
+			</post>
+		</meeting>
+		<meeting name="aoeuaoeu">
+aoeuaoeu
+
+		</meeting>
+	</group>
+	<group name="PGM1">
+The worst programming class you can ever take in the solar system.
+	<user name="Unknown0" origin="Unknown"/>
+	<user name="Unknown1" origin="Unknown"/>
+		<meeting name="asonetuh">
+AOEUAOEUAOEU
+			<post name="Sample1" date="2/21/2018">
+111111111111111111111111111111111111111111111111111111111111111111111111111111111
+			</post>
+			<post name="Sample2" date="2/21/2018">
+222222222222222222222222222222222222222222222222222222222222222222222222222222222
+			</post>
+			<post name="Sample3" date="2/21/2018">
+333333333333333333333333333333333333333333333333333333333333333333333333333333333
+			</post>
+		</meeting>
+		<meeting name="sanotehu">
+AOEUAOEUAOEUAOEUOAEUAOEUAOEUAOEUAOEUAOEUUUUUUUUUUUUUUUUUUUUUUUUU
+			<post name="Sample4" date="2/21/2018">
+444444444444444444444444444444444444444444444444444444444444444444444444444444444
+			</post>
+			<post name="Sample5" date="2/21/2018">
+555555555555555555555555555555555555555555555555555555555555555555555555555555555
+			</post>
+			<post name="Sample6" date="2/21/2018">
+666666666666666666666666666666666666666666666666666666666666666666666666666666666
+			</post>
+		</meeting>
+	</group>
+</data>
