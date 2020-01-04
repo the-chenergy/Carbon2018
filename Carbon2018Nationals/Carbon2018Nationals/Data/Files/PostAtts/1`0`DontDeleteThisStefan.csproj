@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5426C860-5FA7-49A9-945D-48226FA3DFA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Carbon</RootNamespace>
+    <AssemblyName>Carbon</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>Publish\</PublishUrl>
+    <BaseIntermediateOutputPath>Temp\</BaseIntermediateOutputPath>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\FavIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Release\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\Forms\AddGroupMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Forms\AddGroupMemberForm.Designer.cs">
+      <DependentUpon>AddGroupMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Forms\AddMeetingMemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Forms\AddMeetingMemberForm.Designer.cs">
+      <DependentUpon>AddMeetingMemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Libraries\Carbolibrary\GroupPermissions.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\JoinGroupPermissionType.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\PostAttachment.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\Sha512Encoder.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\GroupPermissionType.cs" />
+    <Compile Include="Code\Libraries\CarboUiComponent\Carbobutton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\Carbobutton.Designer.cs">
+      <DependentUpon>Carbobutton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Libraries\Carbolibrary\Tag.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\Database.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\Group.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\Meeting.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\Post.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\User.cs" />
+    <Compile Include="Code\Libraries\CarboUiComponent\CarboFormCover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\CarboFormCover.Designer.cs">
+      <DependentUpon>CarboFormCover.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\Carbolist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\CarbolistItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\CarboRichTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\Carboscrollbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\Carbotextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\Carbotilelist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\Carboutil\CarboRtfConverter.cs" />
+    <Compile Include="Code\Libraries\Carboutil\Carbostopwatch.cs" />
+    <Compile Include="Code\Libraries\Carboutil\Extensions.cs" />
+    <Compile Include="Code\Libraries\CarboUiComponent\CarboFloatingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Libraries\CarboUiComponent\CarboFloatingForm.Designer.cs">
+      <DependentUpon>CarboFloatingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Structs\Config.cs" />
+    <Compile Include="Code\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Global\Global.cs" />
+    <Compile Include="Code\Panels\GroupPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Panels\GroupPanel.Designer.cs">
+      <DependentUpon>GroupPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Forms\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\Forms\HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Panels\LoginPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Panels\LoginPanel.Designer.cs">
+      <DependentUpon>LoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Panels\MeetingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Panels\MeetingPanel.Designer.cs">
+      <DependentUpon>MeetingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Global\n.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\Notification.cs" />
+    <Compile Include="Code\Libraries\Carbolibrary\NotificationType.cs" />
+    <Compile Include="Code\Structs\Tab.cs" />
+    <Compile Include="Code\Panels\PostPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Panels\PostPanel.Designer.cs">
+      <DependentUpon>PostPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Program.cs" />
+    <Compile Include="Code\Panels\MenuBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Panels\MenuBar.Designer.cs">
+      <DependentUpon>MenuBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Panels\SignUpPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Code\Panels\SignUpPanel.Designer.cs">
+      <DependentUpon>SignUpPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Global\Urls.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Code\Global\ran.cs" />
+    <Compile Include="Code\Libraries\CarboUiComponent\CarbolistTheme.cs" />
+    <Compile Include="Code\Global\tra.cs" />
+    <EmbeddedResource Include="Code\Forms\AddGroupMemberForm.resx">
+      <DependentUpon>AddGroupMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Forms\AddMeetingMemberForm.resx">
+      <DependentUpon>AddMeetingMemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Libraries\CarboUiComponent\CarboFormCover.resx">
+      <DependentUpon>CarboFormCover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Libraries\CarboUiComponent\CarboRichTextbox.resx">
+      <DependentUpon>CarboRichTextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Libraries\CarboUiComponent\Carbotextbox.resx">
+      <DependentUpon>Carbotextbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Libraries\CarboUiComponent\CarboFloatingForm.resx">
+      <DependentUpon>CarboFloatingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Panels\GroupPanel.resx">
+      <DependentUpon>GroupPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Forms\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Panels\LoginPanel.resx">
+      <DependentUpon>LoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Panels\MeetingPanel.resx">
+      <DependentUpon>MeetingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Panels\PostPanel.resx">
+      <DependentUpon>PostPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Panels\MenuBar.resx">
+      <DependentUpon>MenuBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\Panels\SignUpPanel.resx">
+      <DependentUpon>SignUpPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Data\Config.ini" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\ClassStructures.txt" />
+    <None Include="Resources\UndoIcon.png" />
+    <None Include="Resources\Sort.png" />
+    <None Include="Resources\AlignLeftIcon.png" />
+    <None Include="Resources\AlignMiddleIcon.png" />
+    <None Include="Resources\AlignRightIcon.png" />
+    <Content Include="Resources\Checkmark.png" />
+    <Content Include="Resources\Database.png" />
+    <None Include="Resources\Exclamation.png" />
+    <Content Include="Resources\Expand.png" />
+    <Content Include="Resources\FavIcon.ico" />
+    <Content Include="Resources\Meetings1.png" />
+    <Content Include="Resources\New.png" />
+    <Content Include="Resources\Notifications.png" />
+    <None Include="Resources\RedoIcon.png" />
+    <Content Include="Resources\Settings.png" />
+    <None Include="Resources\Meetings.png" />
+    <None Include="Resources\Hahaha.PNG" />
+    <None Include="Resources\HAHA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

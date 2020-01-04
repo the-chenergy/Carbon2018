@@ -1,0 +1,7 @@
+USERNAME	PASSWORD	ACTUAL USER
+
+trashstudio	disguy!!	Stefan Todorov
+asianboii	12341234	Qianlang Chen
+form1		34343434	Coleman Johnston
+nettrash	trash!!!	Nate McKanzie
+big_z		abcd1234	Big Z!
