@@ -32,7 +32,7 @@ Carbon introduces the following features:
 
 ***
 
-**Read more about Carbon [here.](https://github.com/asianboii-chen/AsianboiisUI/blob/master/README.md)**
+**Read more about Carbon [here.](https://github.com/asianboii-chen/Carbon2018/raw/master/Documents/About.pdf)**
 
 This project is made by the Carbon Team: [Stefan Todorov](https://github.com/coravacav) and me. We brought this project to the Technology Student Association, and we won the first place in the software development event of the Utah-state competition.
 
