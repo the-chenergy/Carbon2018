@@ -1,6 +1,6 @@
 # Carbon
 
-*In the everyday life of a teacher at the Granite School District, meetings are important. Some go one a week, some go more. **Carbon** adds a feature that these meetings never had before: Efficient documentation.*
+*In the everyday life of a teacher at the Granite School District, meetings are important. Some go once a week, some go more. **Carbon** adds a feature that these meetings never had before: Efficient documentation.*
 
 ***
 
